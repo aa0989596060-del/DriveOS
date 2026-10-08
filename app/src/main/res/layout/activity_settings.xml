@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#090A0C">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DriveOS Settings"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <Switch
+        android:id="@+id/immersiveSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full-screen mode"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DriveOS is a standalone launcher. It opens other apps through Android intents and does not require a vehicle head unit."
+        android:textColor="#AEB4BF"
+        android:textSize="15sp"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>
